@@ -6,7 +6,6 @@
              xmlns:conv="clr-namespace:Harp.LoadCells.Design.Converters"
              xmlns:heroIcons="clr-namespace:HeroIconsAvalonia.Controls;assembly=HeroIconsAvalonia"
              xmlns:local="clr-namespace:Harp.LoadCells;assembly=Harp.LoadCells"
-             xmlns:md="clr-namespace:Markdown.Avalonia;assembly=Markdown.Avalonia"
              xmlns:system="clr-namespace:System;assembly=System.Runtime"
              xmlns:vm="clr-namespace:Harp.LoadCells.Design.ViewModels"
              xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
@@ -322,7 +321,7 @@
 
                   <!-- Digital Outputs Grid Overview -->
                   <StackPanel Grid.Row="1" Grid.Column="2" Margin="30,10,0,0">
-                    <Grid ColumnDefinitions="Auto,150,170,170,170,Auto,"
+                    <Grid ColumnDefinitions="Auto,150,170,170,170,Auto"
                           RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto">
                       <!-- Header Row -->
                       <TextBlock Grid.Row="0" Grid.Column="0" Text="DO" FontWeight="Bold" Margin="0,0,20,10"/>
